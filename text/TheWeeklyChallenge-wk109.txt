@@ -20,7 +20,7 @@ so that sum of numbers in each box is the same."
                    │              │      │             │
                    └──────────────┘      └─────────────┘
 
-Replace the nice box-drawing characters to the raw '-', '|' and '+' :
+Replace the nice box-drawing characters by the raw '-', '|' and '+' :
 
         +--------------+      +--------------+
         |              |      |              |
