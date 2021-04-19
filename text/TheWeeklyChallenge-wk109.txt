@@ -36,6 +36,13 @@ Replace the nice box-drawing characters by the raw '-', '|' and '+' :
                    │              │      │             │
                    │              │      │             │
                    +--------------+      +-------------+
-                   
-                   
+                  
+ Then make more boxes (with the exactly same height and width), fill in alphabets in any spaces...
+ 
+ Use the drawing of boxes with an array of number as input.
+ The array size should be equal to the number of alphabets.
+ 
+ Goal of this task: Substitute the numbers into the alphabets 
+ in order to make the sum of numbers in each box is the same.
+ 
  // 2021-04-19
