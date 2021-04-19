@@ -49,7 +49,7 @@ Fig. 2
  
  (Given that no boxes should share edges with any other boxes. See Fig. 3)
  
- (For easier implementation, the height and width of each box might be given.)
+ (For easier implementation, the common height and width of the boxes might be given.)
  
  // 2021-04-19
 
