@@ -4,6 +4,7 @@ Task "The Four Squares" Statement:
 "Write a script to place the given unique numbers in the square box
 so that sum of numbers in each box is the same." 
 
+Fig. 1
               (1)                    (3)
         ╔══════════════╗      ╔══════════════╗
         ║              ║      ║              ║
@@ -22,6 +23,7 @@ so that sum of numbers in each box is the same."
 
 Replace the nice box-drawing characters by the raw '-', '|' and '+' :
 
+Fig. 2
         +--------------+      +--------------+
         |              |      |              |
         |      a       |      |      e       |
@@ -45,4 +47,27 @@ Replace the nice box-drawing characters by the raw '-', '|' and '+' :
  Goal of this task: Substitute the numbers into the alphabets 
  in order to make the sum of numbers in each box is the same.
  
+ (Given that no boxes should share edges with any other boxes. See Fig. 3)
+ 
+ (For easier implementation, the height and width of each box might be given.)
+ 
  // 2021-04-19
+
+
+Fig. 3
+This kind of sharing edges between two boxes will not happen from the input.
+        +--------------+  
+        |              |  
+        |      a       | 
+        |              |  
+        +--------------+   
+        |              |   
+        |              |   
+        |      b       |   
+        |              |   
+        +--------------+    
+        |              |
+        |      c       |
+        |              |
+        +--------------+
+        
