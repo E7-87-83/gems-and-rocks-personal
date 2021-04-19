@@ -1,0 +1,41 @@
+Task "The Four Squares" Statement:
+(by Mohammad S Anwar, https://perlweeklychallenge.org/blog/perl-weekly-challenge-109/ )
+
+"Write a script to place the given unique numbers in the square box
+so that sum of numbers in each box is the same." 
+
+              (1)                    (3)
+        ╔══════════════╗      ╔══════════════╗
+        ║              ║      ║              ║
+        ║      a       ║      ║      e       ║
+        ║              ║ (2)  ║              ║  (4)
+        ║          ┌───╫──────╫───┐      ┌───╫─────────┐
+        ║          │   ║      ║   │      │   ║         │
+        ║          │ b ║      ║ d │      │ f ║         │
+        ║          │   ║      ║   │      │   ║         │
+        ║          │   ║      ║   │      │   ║         │
+        ╚══════════╪═══╝      ╚═══╪══════╪═══╝         │
+                   │       c      │      │      g      │
+                   │              │      │             │
+                   │              │      │             │
+                   └──────────────┘      └─────────────┘
+
+Replace the nice box-drawing characters to the raw '-', '|' and '+' :
+
+        +--------------+      +--------------+
+        |              |      |              |
+        |      a       |      |      e       |
+        |              |      |              |  
+        |          +---+------+---+      +---+---------+
+        |          │   |      |   │      │   |         │
+        |          │ b |      | d │      │ f |         │
+        |          │   |      |   │      │   |         │
+        |          │   |      |   │      │   |         │
+        +----------+---+      +---+------+---+         │
+                   │       c      │      │      g      │
+                   │              │      │             │
+                   │              │      │             │
+                   +--------------+      +-------------+
+                   
+                   
+ // 2021-04-19
