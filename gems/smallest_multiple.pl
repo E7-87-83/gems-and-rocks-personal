@@ -36,16 +36,15 @@ sub mult_nt {
         my $temp = 10 % $z;
         my @RMNDER = (undef);
         do {
-        $RMNDER[2**$k] = $temp;
-        for ( 1 .. 2**$k-1 ) {
-            $RMNDER[2**$k + $_] = ( $RMNDER[$_] + $temp) % $z ;
-            if ($RMNDER[2**$k + $_] == 0) {
-                $key = 2**$k + $_;
-                last;
-            }
-    }
-
-    $temp = (10*$RMNDER[2**$k]) % $z;
+            $RMNDER[2**$k] = $temp;
+            for ( 1 .. 2**$k-1 ) {
+                $RMNDER[2**$k + $_] = ( $RMNDER[$_] + $temp) % $z ;
+                if ($RMNDER[2**$k + $_] == 0) {
+                    $key = 2**$k + $_;
+                    last;
+                }
+            } 
+        $temp = (10*$RMNDER[2**$k]) % $z;
 	$k++;
     } while (!$key);
 }
